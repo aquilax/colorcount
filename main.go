@@ -15,8 +15,8 @@ func toHex(r, g, b, a uint32) string {
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Println("colorcount: counts color in an image [jpg, png, gif].")
-		fmt.Println("Usage: $ colorcount file")
+		fmt.Println("Usage: colorcount file")
+		fmt.Println("Counts colors in an image [jpg, png, gif].")
 		os.Exit(1)
 	}
 	fileName := os.Args[1]
